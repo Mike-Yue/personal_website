@@ -20,7 +20,7 @@ export default function Homepage(){
             </Card.Title>
             <Card.Text>
               <p>
-                Hey, welcome to my page! My name is Mike Yue, and I am a 4th year Computer Engineering student at UBC. I will be graduating with my Bachelors of Applied Science in May 2020, and will be looking
+                Hello, welcome to my page! My name is Mike Yue, and I am a 4th year Computer Engineering student at UBC. I will be graduating with my Bachelors of Applied Science in May 2020, and will be looking
                 for full time opportunities in software development starting at that time. Check out my Github and Linkedin below!
               </p>
               <a href="https://www.github.com/mike-yue" target="_blank"><Button variant="light"><img src={github} /></Button></a>
