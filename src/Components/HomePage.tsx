@@ -12,6 +12,21 @@ export default function Homepage(){
     <div>
       <br />
       <CardDeck>
+        <Card border="info">
+            <Card.Img variant="top" src={hobbies} />
+            <Card.Body>
+              <Card.Title>
+                Hobbies
+              </Card.Title>
+              <Card.Text>
+                <p>
+                  In my off time, I enjoy building computers as well as reading up on the latest technological advancements in the computing sector. I've built in ATX and mATX cases, 
+                  and my current build is a mini-ITX contained in a Node 202 so I can fly around the country with it.
+                </p>
+                <a href='https://ca.pcpartpicker.com/list/Qv8RfH' target="_blank"><Button>Check out my PC Build List</Button></a>
+              </Card.Text>
+            </Card.Body>
+          </Card>
         <Card bg="light" border="info">
           <Card.Img variant="top" src={myself} />
           <Card.Body>
@@ -41,21 +56,6 @@ export default function Homepage(){
                 full stack development, devOps, and API interactions. The languages I am currently most comfortable with are Python and Javascript.
               </p>
               <a href='./resume.pdf' download><Button>Download My Resume</Button></a>
-            </Card.Text>
-          </Card.Body>
-        </Card>
-        <Card border="info">
-          <Card.Img variant="top" src={hobbies} />
-          <Card.Body>
-            <Card.Title>
-              Hobbies
-            </Card.Title>
-            <Card.Text>
-              <p>
-                In my off time, I enjoy building computers as well as reading up on the latest technological advancements in the computing sector. I've built in ATX and mATX cases, 
-                and my current build is a mini-ITX contained in a Node 202 so I can fly around the country with it.
-              </p>
-              <a href='https://ca.pcpartpicker.com/list/Qv8RfH' target="_blank"><Button>Check out my PC Build List</Button></a>
             </Card.Text>
           </Card.Body>
         </Card>
