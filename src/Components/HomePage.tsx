@@ -20,10 +20,13 @@ export default function Homepage(){
               </Card.Title>
               <Card.Text>
                 <p>
-                  In my off time, I enjoy building computers as well as reading up on the latest technological advancements in the computing sector. I've built in ATX and mATX cases, 
-                  and my current build is a mini-ITX contained in a Node 202 so I can fly around the country with it.
+                  In my free time, I enjoy building custom computers from the ground up. I see it as a challenge to beat out the 
+                  price to performance ratio of prebuilt computers sold by companies such as Best Buy or Canada Computers.
+
+                  Due to the need to relocate frequently due to internships, my current PC build is housed within a Fractal Design Node 202 case, which 
+                  is small enough to fit within my carry-on. Check out my parts list below!
                 </p>
-                <a href='https://ca.pcpartpicker.com/list/Qv8RfH' target="_blank"><Button>Check out my PC Build List</Button></a>
+                <a href='https://ca.pcpartpicker.com/list/Qv8RfH' target="_blank"><Button>View Parts List</Button></a>
               </Card.Text>
             </Card.Body>
           </Card>
@@ -35,8 +38,8 @@ export default function Homepage(){
             </Card.Title>
             <Card.Text>
               <p>
-                Hello, welcome to my page! My name is Mike Yue, and I am a 4th year Computer Engineering student at UBC. I will be graduating with my Bachelors of Applied Science in May 2020, and will be looking
-                for full time opportunities in software development starting at that time. Check out my Github and Linkedin below!
+                Hello and welcome to my page! My name is Mike Yue, and I am a 4th year Computer Engineering student at UBC. I will be graduating with my Bachelors of Applied Science in May 2020, and am actively looking
+                for full time opportunities in software development. Check out my Github and Linkedin below!
               </p>
               <a href="https://www.github.com/mike-yue" target="_blank"><Button variant="light"><img src={github} /></Button></a>
               <a href="https://www.linkedin.com/in/mike-yue/" target="_blank"> <Button variant="light" ><img src={linkedin} /></Button></a>
@@ -51,9 +54,10 @@ export default function Homepage(){
             </Card.Title>
             <Card.Text>
               <p>
-                I have interned at 3 different companies (Shopify, BC Cancer Research Center, and UBC Center for Learning and Technology), as well 
-                as competed in hackathons such as NwHacks 2019. The experience I've gained from these internships include simple scripting, 
-                full stack development, devOps, and API interactions. The languages I am currently most comfortable with are Python and Javascript.
+                I have interned as a software developer at companies such as Shopify and BC Cancer Research Center, as well 
+                as competed in hackathons such as NwHacks 2019. The experiences I've gained include simple scripting, interfacing with REST/GraphQL APIs, front-end/back-end development, and 
+                continuous integration/continuous deployment. Currently, my preferred languages are Python and Javascript.
+                
               </p>
               <a href='./resume.pdf' download><Button>Download My Resume</Button></a>
             </Card.Text>
