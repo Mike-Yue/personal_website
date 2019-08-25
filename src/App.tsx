@@ -1,6 +1,6 @@
 import React from 'react';
-import { Homepage} from './Components'
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Homepage, Languages, Hobbies, Navigation } from './Components'
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Container } from 'react-bootstrap';
 
 const App: React.FC = () => {
@@ -8,7 +8,10 @@ const App: React.FC = () => {
   function Home(){
     return (
       <Container>
+        <Navigation />
         <Homepage />
+        <Languages />
+        <Hobbies />
       </Container>
     )
   }
