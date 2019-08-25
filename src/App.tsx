@@ -9,9 +9,11 @@ const App: React.FC = () => {
     return (
       <Container>
         <Navigation />
+        <br />
         <Homepage />
         <Languages />
         <Hobbies />
+        <br />
       </Container>
     )
   }
