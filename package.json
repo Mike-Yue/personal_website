@@ -2,7 +2,7 @@
   "name": "personal_site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mike-yue.github.io",
+  "homepage": "https://github.com/Mike-Yue/mike-yue.github.io",
   "dependencies": {
     "@material-ui/core": "^4.3.3",
     "@types/jest": "24.0.18",
