@@ -8,8 +8,8 @@ export default function Navigation(){
       <Navbar.Brand>Mike Yue</Navbar.Brand>
       <Nav className="mr-auto">
         <Nav.Link href="#about">About Me</Nav.Link>
-        <Nav.Link href="#exp">Language/Technology Fluency Breakdowns</Nav.Link>
-        <Nav.Link href="#hobbies">Extracurricular Activities</Nav.Link>
+        <Nav.Link href="#exp">Technical Expertise</Nav.Link>
+        <Nav.Link href="#hobbies">Hobbies</Nav.Link>
       </Nav>
     </Navbar>
   )
